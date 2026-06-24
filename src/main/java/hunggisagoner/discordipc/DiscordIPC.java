@@ -1,8 +1,14 @@
-package meteordevelopment.discordipc;
+package hunggisagoner.discordipc;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
-import meteordevelopment.discordipc.connection.Connection;
+
+import hunggisagoner.discordipc.connection.Connection;
+import hunggisagoner.discordipc.DiscordIPC;
+import hunggisagoner.discordipc.IPCUser;
+import hunggisagoner.discordipc.Opcode;
+import hunggisagoner.discordipc.Packet;
+import hunggisagoner.discordipc.RichPresence;
 
 import java.lang.management.ManagementFactory;
 import java.util.function.BiConsumer;

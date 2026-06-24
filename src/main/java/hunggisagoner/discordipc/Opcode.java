@@ -1,4 +1,6 @@
-package meteordevelopment.discordipc;
+package hunggisagoner.discordipc;
+
+import hunggisagoner.discordipc.Opcode;
 
 public enum Opcode {
     Handshake,

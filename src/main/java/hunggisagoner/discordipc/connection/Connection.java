@@ -1,8 +1,12 @@
-package meteordevelopment.discordipc.connection;
+package hunggisagoner.discordipc.connection;
 
 import com.google.gson.JsonObject;
-import meteordevelopment.discordipc.Opcode;
-import meteordevelopment.discordipc.Packet;
+
+import hunggisagoner.discordipc.Opcode;
+import hunggisagoner.discordipc.Packet;
+import hunggisagoner.discordipc.connection.Connection;
+import hunggisagoner.discordipc.connection.UnixConnection;
+import hunggisagoner.discordipc.connection.WinConnection;
 
 import java.io.IOException;
 import java.nio.ByteBuffer;

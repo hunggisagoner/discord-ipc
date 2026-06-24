@@ -1,4 +1,4 @@
-package meteordevelopment.discordipc;
+package hunggisagoner.discordipc;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;

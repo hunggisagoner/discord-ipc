@@ -1,4 +1,4 @@
-package meteordevelopment.discordipc;
+package hunggisagoner.discordipc;
 
 public class IPCUser {
     public String id;

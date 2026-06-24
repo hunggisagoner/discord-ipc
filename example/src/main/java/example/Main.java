@@ -1,9 +1,9 @@
 package example;
 
-import meteordevelopment.discordipc.DiscordIPC;
-import meteordevelopment.discordipc.RichPresence;
-
 import java.time.Instant;
+
+import hunggisagoner.discordipc.DiscordIPC;
+import hunggisagoner.discordipc.RichPresence;
 
 public class Main {
     public static void main(String[] args) {
