@@ -1,3 +1,7 @@
+# ATTENTION
+- This is a fork of [MeteorDevelopment](https://github.com/MeteorDevelopment)'s [discord-ipc](https://github.com/MeteorDevelopment/discord-ipc).
+
+
 # Discord IPC
 Pure Java 16 library for interacting with locally running Discord instance without the use of JNI.  
 Currently, only supports retrieving the logged-in user and setting user's activity.  
