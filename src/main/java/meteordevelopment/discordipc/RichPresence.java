@@ -1,5 +1,6 @@
 package meteordevelopment.discordipc;
 
+import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 
 public class RichPresence {
@@ -68,6 +69,20 @@ public class RichPresence {
             o.add("timestamps", t);
         }
 
+        // Party
+        if (party != null) {
+            JsonObject p = new JsonObject();
+            
+            if (party.id != null) p.addProperty("id", party.id);
+            
+            JsonArray sizeArray = new JsonArray();
+            sizeArray.add(party.size);
+            sizeArray.add(party.max);
+            p.add("size", sizeArray);
+            
+            o.add("party", p);
+        }
+
         return o;
     }
 
@@ -80,17 +95,18 @@ public class RichPresence {
         public Long start;
         public Long end;
     }
+    
     // Party class
-    public class Party {
-    public String id;
-    public int size;
-    public int max;
+    public static class Party {
+        public String id;
+        public int size;
+        public int max;
 
-    public Party(String id, int size, int max) {
-        this.id = id;
-        this.size = size;
-        this.max = max;
-    }
+        public Party(String id, int size, int max) {
+            this.id = id;
+            this.size = size;
+            this.max = max;
+        }
     }
 
     public Party party;
