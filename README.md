@@ -1,5 +1,6 @@
 # ATTENTION
 - This is a fork of [MeteorDevelopment](https://github.com/MeteorDevelopment)'s [discord-ipc](https://github.com/MeteorDevelopment/discord-ipc).
+- I forked to be able to use the Party feature of Discord Rich Presence.
 
 
 # Discord IPC

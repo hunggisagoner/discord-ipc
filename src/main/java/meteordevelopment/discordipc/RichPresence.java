@@ -80,4 +80,18 @@ public class RichPresence {
         public Long start;
         public Long end;
     }
+    // Party class
+    public class Party {
+    public String id;
+    public int size;
+    public int max;
+
+    public Party(String id, int size, int max) {
+        this.id = id;
+        this.size = size;
+        this.max = max;
+    }
+    }
+
+    public Party party;
 }
